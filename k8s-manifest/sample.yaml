@@ -4,7 +4,7 @@ metadata:
   name: nginx-demo
   namespace: vijay
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
       app: nginx
@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: nginx:latest
+        image: httpd:latest
         ports:
         - containerPort: 80
 ---
