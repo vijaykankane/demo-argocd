@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: nginx-vijay
+  name: vijay-vijay
   namespace: vijay
 spec:
   replicas: 1
@@ -22,7 +22,7 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: nginx-vijay
+  name: vijay-vijay
   namespace: vijay
 spec:
   ports:
